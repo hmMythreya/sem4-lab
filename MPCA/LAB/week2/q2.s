@@ -1,0 +1,22 @@
+.DATA
+	A: .BYTE 5,10,15,20
+	B: .BYTE 0
+
+.TEXT
+	LDR R1,=A
+	LDR R2,=B
+	MOV R3,#0 
+	MOV R4,#0 
+
+LOOP:
+	LDRB R5,[R1]
+	ADD R4,R4,R5
+	ADD R1,R1,#1
+	ADD R3,R3,#1
+	CMP R3,#4
+	BNE LOOP
+	SWI 0x011
+	STRB R2,[R4]
+
+.END
+	

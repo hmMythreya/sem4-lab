@@ -1,0 +1,39 @@
+.DATA
+	A: .word 5
+	B: .word 5
+	C: .word 0
+	D: .word 0
+	E: .word 0
+
+.TEXT
+	LDR R0,=A
+	LDR R1,=B
+	LDR R2,=C
+	LDR R3,=D
+	LDR R4,=E
+
+LDR R5,[R0]
+LDR R6,[R1]
+CMP R5,R6
+BNE TWO
+ADD R7,R5,R6
+STR R7,[R2]
+B DONE
+
+TWO:
+	LDR R7,[R2]
+	CMP R6,R7
+	BNE THREE
+	SUB R7,R5,R6
+	STR R7,[R3]
+	B DONE
+
+THREE:
+	MUL R7,R5,R6
+	STR R7,[R4]
+	B DONE
+
+DONE:
+	SWI 0X011
+
+.END
