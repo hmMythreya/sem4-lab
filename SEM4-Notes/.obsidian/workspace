@@ -1,0 +1,121 @@
+{
+  "main": {
+    "id": "7deb53297ba248f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa3463922e53ecc8",
+        "type": "split",
+        "children": [
+          {
+            "id": "059ae79d5900735b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CN/Application Layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f61c6841d2c904a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CN/Transport Layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd6fdcbcb38eccfe",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7b869a52eba9efa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b036f203ac25a6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff3ff8e162d54b27",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7c173808e92c7167",
+    "type": "split",
+    "children": [
+      {
+        "id": "06f6fefa952ddcf6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc67a664d1a83d23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CN/Application Layer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "059ae79d5900735b",
+  "lastOpenFiles": [
+    "CN/Application Layer.md",
+    "CN/Transport Layer.md",
+    "CN/CN.md",
+    "socket.md",
+    "EthnoRent/Aditi Letter.md",
+    "U1.md",
+    "LA.md",
+    "All Pictures/Pasted image 20220216205808.png",
+    "EthnoRent/EthnoRent.md",
+    "EthnoRent/PreIncubator/Milestone 1.md"
+  ]
+}
